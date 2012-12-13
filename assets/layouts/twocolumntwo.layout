@@ -1,0 +1,19 @@
+<div class="slide {{ class }}" id = "{{ id }}">
+  <div>
+    <section>
+      {{#header}}
+      <header>
+        <h2>
+          {{{ title }}}
+        </h2>
+      </header>
+      {{/header}}
+      {{{ content }}}
+      <div class='left' style='float:left;width:{{{ w1 }}}'>
+      {{{ left }}}
+      </div>    
+      <div class='right' style='float:right;width:{{{ w2 }}}'>
+      {{{ right }}}
+    </section>
+  </div>
+</div>

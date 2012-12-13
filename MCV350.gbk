@@ -1,0 +1,326 @@
+LOCUS       MCV350      5387 bp    DNA     circular VRL 21-JUL-2011
+DEFINITION  Merkel cell polyomavirus, complete genome.
+ACCESSION   NC_010277
+VERSION     NC_010277.1  GI:165973999
+KEYWORDS    .
+SOURCE      Merkel cell polyomavirus (unknown)
+  ORGANISM  Merkel cell polyomavirus
+            Viruses; dsDNA viruses, no RNA stage; Polyomaviridae; Polyomavirus;
+            unclassified Polyomavirus.
+REFERENCE   1  (bases 1 to 5387)
+  AUTHORS   Feng,H., Shuda,M., Chang,Y. and Moore,P.S.
+  TITLE     Clonal integration of a polyomavirus in human Merkel cell carcinoma
+  JOURNAL   Science 319 (5866), 1096-1100 (2008)
+   PUBMED   18202256
+REFERENCE   2  (bases 1 to 5387)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2008) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 5387)
+  AUTHORS   Moore,P.S., Chang,Y., Feng,H. and Shuda,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2008) Molecular Virology Program, University of
+            Pittsburgh Cancer Institute, 5117 Centre Ave, Pittsburgh, PA 15213,
+            US
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EU375803.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5387
+                     /organism="Merkel cell polyomavirus"
+                     /mol_type="genomic DNA"
+                     /isolate="MCC350"
+                     /isolation_source="Merkel cell carcinoma"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:493803"
+                     /note="tumor case MCC350"
+     CDS             196..756
+                     /locus_tag="MCPyV_gp2"
+                     /note="small T-antigen; promotes the efficient replication
+                     of genomic DNA; binds to and negativley regulates the
+                     function of protein phosphotase (PP2A) thereby
+                     accelerating the progression to S-phase; the small
+                     T-antigen shares a region in common with the large
+                     T-antigen known as the J-domain; the J-domain is required
+                     for multiple processes including assembly, viral genomic
+                     DNA replication and transcription; The polyomaviruses are
+                     non-enveloped dsDNA viruses; the viral genome is organized
+                     into two divergent transcriptional units known as early
+                     and late regions; mRNAs from the early region encode the
+                     viral small and large t-antigens; the small T antigen and
+                     large T antigen are expressed upon entry into the host
+                     nucleus early in the viral lifecycle; the small T antigen
+                     is not essential for replication in all cell lines"
+                     /codon_start=1
+                     /product="Small T antigen"
+                     /protein_id="YP_001651047.1"
+                     /db_xref="GI:165974001"
+                     /db_xref="GeneID:10987416"
+                     /translation="MDLVLNRKEREALCKLLEIAPNCYGNIPLMKAAFKRSCLKHHPD
+                     KGGNPVIMMELNTLWSKFQQNIHKLRSDFSMFDEVSTKFPWEEYGTLKDYMQSGYNAR
+                     FCRGPGCMLKQLRDSKCACISCKLSRQHCSLKTLKQKNCLTWGECFCYQCFILWFGFP
+                     PTWESFDWWQKTLEETDYCLLHLHLF"
+                     /label="MCPyV_gp2 (sT)"
+     CDS             join(196..429,861..1403)
+                     /locus_tag="MCPyV_gp1"
+                     /note="premature stop codon eliminates helicase/ATPase
+                     domain"
+                     /codon_start=1
+                     /product="truncated large T antigen"
+                     /protein_id="YP_001651046.1"
+                     /db_xref="GI:165974000"
+                     /db_xref="GeneID:10987418"
+                     /translation="MDLVLNRKEREALCKLLEIAPNCYGNIPLMKAAFKRSCLKHHPD
+                     KGGNPVIMMELNTLWSKFQQNIHKLRSDFSMFDEVDEAPIYGTTKFKEWWRSGGFSFG
+                     KAYEYGPNPHGANSRSRKPSSNASRGAPSGSSPPHSQSSSSGYGSFSASQASDSQSRG
+                     PDIPPEHHEEPTSSSGSSSREETTNSGRESSTPNGTSVPRNSSRTYGTWEDLFCDESL
+                     SSPEPPSSSEEPEEPPSSRSSPRQPPCSSAEEASSSQFTD"
+                     /label="MCPyV_gp1 (trunc lT)"
+     gene            196..1403
+                     /locus_tag="MCPyV_gp1"
+                     /db_xref="GeneID:10987418"
+     gene            196..756
+                     /locus_tag="MCPyV_gp2"
+                     /db_xref="GeneID:10987416"
+     misc_feature    join(196..429,861..1406)
+                     /note="fragment used to generate monoclonal antibody Ab3"
+                     /label="Recombinant LT"
+     misc_feature    join(421..429,861..1110)
+                     /locus_tag="MCPyV_gp1"
+                     /note="region used in digital transcriptome
+                     subtraction(DTS) analysis"
+     primer_bind     550..574
+                     /note="Used for digital PCR Copy number, PLoS ONE 7(6):
+                     e39954. doi:10.1371/journal.pone.0039954"
+                     /label=Ota_STF550_Forward
+     primer_bind     560..580
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set9_Forward
+     primer_bind     571..590
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_LT3_Forward
+     primer_bind     576..599
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /note="Used for digital PCR Copy number, PLoS ONE 7(6):
+                     e39954. doi:10.1371/journal.pone.0039954"
+                     /label=Rodig_LT3_Forward
+     primer_bind     complement(618..639)
+                     /note="Used for digital PCR Copy number, PLoS ONE 7(6):
+                     e39954. doi:10.1371/journal.pone.0039954"
+                     /label=Ota_STR640_Reverse
+     primer_bind     complement(645..668)
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /note="Used for digital PCR Copy number, PLoS ONE 7(6):
+                     e39954. doi:10.1371/journal.pone.0039954"
+                     /label=Rodig_LT3_Reverse
+     primer_bind     complement(680..701)
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set9_Reverse
+     primer_bind     complement(860..879)
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_LT3_Reverse
+     primer_bind     1053..1072
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set6_Forward
+     primer_bind     1107..1127
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_LT2_Forward
+     primer_bind     complement(1110..1131)
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set6_Reverse
+     primer_bind     1170..1193
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set7_Forward
+     primer_bind     complement(1196..1216)
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /note=CTGGTTCCATTKGGTGTGCTG
+                     /label=Rodig_LT2_Reverse
+     primer_bind     complement(1238..1257)
+                     /note="Rodig, DeCaprio, J Clin Invest.
+                     doi:10.1172/JCI64116"
+                     /label=Rodig_Set7_Reverse
+     primer_bind     1514..1533
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_LT1_Forward
+     misc_feature    1698..1898
+                     /note="region used in digital transcriptome
+                     subtraction(DTS) analysis"
+     primer_bind     complement(1934..1953)
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_LT1_Reverse
+     CDS             complement(3156..4427)
+                     /locus_tag="MCPyV_gp3"
+                     /note="VP1; major capsid protein of polyomavirus; 72
+                     pentamers of VP1 comprise the outer capsid and form a T =
+                     7 icosahedral lattice; VP1 contains an amino-terminal
+                     bipartite nuclear targeting signal that overlaps its
+                     DNA-binding-domain; The polyomaviruses are non-enveloped
+                     dsDNA viruses with a major capsid protein, VP1, that
+                     facilitates binding of genomic DNA and entry into target
+                     cells; the viral genome is organized into two divergent
+                     transcriptional units known as early and late regions;
+                     mRNAs from the early region encode the viral small and
+                     large t-antigens; mRNAs from the late region encode the
+                     structural proteins, VP1, VP2 and VP3"
+                     /codon_start=1
+                     /product="Major capsid protein VP1"
+                     /protein_id="YP_001651048.1"
+                     /db_xref="GI:165974002"
+                     /db_xref="GeneID:10987417"
+                     /translation="MAPKRKASSTCKTPKRQCIPKPGCCPNVASVPKLLVKGGVEVLS
+                     VVTGEDSITQIELYLNPRMGVNSPDLPTTSNWYTYTYDLQPKGSSPDQPIKENLPAYS
+                     VARVSLPMLNEDITCDTLQMWEAISVKTEVVGISSLINVHYWDMKRVHDYGAGIPVSG
+                     VNYHMFAIGGEPLDLQGLVLDYQTEYPKTTNGGPITIETVLGRKMTPKNQGLDPQAKA
+                     KLDKDGNYPIEVWCPDPSKNENSRYYGSIQTGSQTPTVLQFSNTLTTVLLDENGVGPL
+                     CKGDGLFISCAHIVGFLFKTSGKMALHGLPRYFNVTLRKIWVKNPYPVVNLINSLFSN
+                     LMPKVSGQPMEGKDNQVEEVRIYEGSEQLPGNPDIVRFLDKFGQEKTVYPKPSVAPAA
+                     VTFQSNQQDKGKAPLKGPQKASQKESQTQQL"
+                     /label="MCPyV_gp3 (VP1)"
+     gene            complement(3156..4427)
+                     /locus_tag="MCPyV_gp3"
+                     /db_xref="GeneID:10987417"
+     primer_bind     3786..3806
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_Vp1_Reverse
+     primer_bind     complement(4118..4137)
+                     /note="Used for MCV detection, Feng et al,
+                     10.1126/science.1152586"
+                     /label=Feng_Vp1_Forward
+     CDS             complement(4393..4983)
+                     /locus_tag="MCPyV_gp5"
+                     /codon_start=1
+                     /product="VP3"
+                     /protein_id="YP_001651050.1"
+                     /db_xref="GI:165974004"
+                     /db_xref="GeneID:10987415"
+                     /translation="MTIEGISGIEALAQLGFTAEQFSNFSLVASLVNQGLTYGFILQT
+                     VSGIGSLITVGVRLSREQVSLVNRDVSWVGSNEVLRHALMAFSLDPLQWENSLLHSVG
+                     QNIFNSLSPTSRLQIQSNLVNLILNSRWVFQTTASQNQGLLSGEAILIPEHIGGTLQQ
+                     QTPDWLLPLVLGLSGYISPELQVIEDGTKKKSIIHL"
+                     /label="MCPyV_gp5 (VP3)"
+     CDS             complement(4393..5118)
+                     /locus_tag="MCPyV_gp4"
+                     /codon_start=1
+                     /product="VP2"
+                     /protein_id="YP_001651049.1"
+                     /db_xref="GI:165974003"
+                     /db_xref="GeneID:10987419"
+                     /translation="MGGIITLLANIGEIATELSATTGVTLEAILTGEALAALEADISS
+                     LMTIEGISGIEALAQLGFTAEQFSNFSLVASLVNQGLTYGFILQTVSGIGSLITVGVR
+                     LSREQVSLVNRDVSWVGSNEVLRHALMAFSLDPLQWENSLLHSVGQNIFNSLSPTSRL
+                     QIQSNLVNLILNSRWVFQTTASQNQGLLSGEAILIPEHIGGTLQQQTPDWLLPLVLGL
+                     SGYISPELQVIEDGTKKKSIIHL"
+                     /label="MCPyV_gp4 (VP2)"
+     gene            complement(4393..5118)
+                     /locus_tag="MCPyV_gp4"
+                     /db_xref="GeneID:10987419"
+     gene            complement(4393..4983)
+                     /locus_tag="MCPyV_gp5"
+                     /db_xref="GeneID:10987415"
+ORIGIN
+        1 GGGGCTCCTA GCCTCCGAGG CCTCTGGAAA AAAAAGAGAG AGGACTCTGA GGCTTAAGAG
+       61 GCTTAATTAG CAAAAAAGGC AGTATCTAAG GGCAGATCCC AAGGGCGGGA AACTGCAGTA
+      121 TAAAAACCAC TCCTTAGTGA GGTAGCTCAT TTGCTCCTCT GCTGTTTCTG CAAACTCCTT
+      181 CTGCATATAG ACAAGATGGA TTTAGTCCTA AATAGGAAAG AAAGAGAGGC TCTGTGCAAG
+      241 CTTTTGGAGA TTGCTCCTAA TTGTTATGGC AACATCCCTC TGATGAAAGC TGCTTTCAAA
+      301 AGAAGCTGCT TAAAGCATCA CCCTGATAAA GGGGGAAATC CTGTTATAAT GATGGAATTG
+      361 AACACCCTTT GGAGCAAATT CCAGCAAAAT ATCCACAAGC TCAGAAGTGA CTTCTCTATG
+      421 TTTGATGAGG TTAGTACAAA ATTTCCTTGG GAAGAATATG GAACTTTAAA GGATTATATG
+      481 CAAAGTGGAT ATAATGCTAG ATTTTGCAGA GGTCCTGGGT GCATGCTTAA GCAACTTAGA
+      541 GATTCTAAGT GCGCTTGTAT TAGCTGTAAG TTGTCTCGCC AGCATTGTAG TCTAAAAACT
+      601 TTAAAGCAAA AAAACTGTCT GACGTGGGGA GAGTGTTTTT GCTATCAGTG CTTTATTCTT
+      661 TGGTTTGGAT TTCCTCCTAC TTGGGAAAGT TTTGACTGGT GGCAAAAAAC TTTAGAAGAA
+      721 ACTGACTACT GCTTACTGCA TCTGCACCTT TTCTAGACTC CTACTTCCTT CCTCTGTAAG
+      781 TATTAGATAT GGAAAAGTCT ATAAGGCAAA ATATCAAAGA AAGGTTATTT ATGACAGATT
+      841 TTGTGTACTT TCCCATCTAG GTTGACGAGG CCCCTATATA TGGGACCACT AAATTCAAAG
+      901 AATGGTGGAG ATCAGGAGGA TTCAGCTTCG GGAAGGCATA CGAATATGGG CCCAATCCAC
+      961 ACGGGGCCAA CTCAAGATCC AGAAAGCCTT CCTCCAATGC ATCCAGGGGA GCCCCCAGTG
+     1021 GAAGCTCACC ACCCCACAGC CAGAGCTCTT CCTCTGGGTA TGGGTCCTTC TCAGCGTCCC
+     1081 AGGCTTCAGA CTCCCAGTCC AGAGGACCCG ATATACCTCC CGAACACCAT GAGGAACCCA
+     1141 CCTCATCCTC TGGATCCAGT AGCAGAGAGG AGACCACCAA TTCAGGAAGA GAATCCAGCA
+     1201 CACCCAATGG AACCAGTGTA CCTAGAAATT CTTCCAGAAC GTATGGCACC TGGGAGGATC
+     1261 TCTTCTGCGA TGAATCACTT TCCTCCCCTG AGCCTCCCTC GTCCTCTGAG GAGCCTGAGG
+     1321 AGCCCCCCTC CTCAAGAAGC TCGCCCCGGC AGCCCCCGTG TTCCTCTGCC GAGGAGGCCT
+     1381 CGTCATCTCA GTTTACAGAT TAGGAATACA TATCCTCCTC CTTCACCACC CCGAAGACCC
+     1441 CTCCTCCATT CTCAAGAAAG CGAAAATTTG GGGGGTCCCG AAGCTCTGCA AGCTCTGCTA
+     1501 GTTCAGCAAG TTTTACAAGC ACTCCACCAA AGCTAAAAAA CAACAGAGAA ACTCCTGTTC
+     1561 CTACTAATTT TCCTATTGAT GTTTCTGATT ATCTTAGCCA TGCTGTATAT AGTAATAAAA
+     1621 CAGTAAGTTG TTTTGCCATT TATACTACTT CTGATAAAGC TATAGAGTTA TATGATAAGA
+     1681 TTGAGAAATT TAAAGTTGAT TTTAAAAGCA GGCATGCCTG TGAATTAGGA TGTATTTTAT
+     1741 TGTTTATAAC TTTATCAAAG CATAGAGTAT TTGCTATTAA GAATTTTTGC TCTACCTTCT
+     1801 GCACTATAAG CTTTTTAATT TGTAAAGGAG TGAATAAGAT GCCTGAAATG TATAATAATT
+     1861 TATGCAAGCC CCCTTACAAA TTACTGCAAG AGAATAAGCC ACTGCTCAAT TATGAATTTC
+     1921 AAGAAAAAGA AAAAGAGGCC AGCTGTAATT GGAATTTAGT TGCTGAATTT GCTTGTGAAT
+     1981 ATGAGCTAGA CGACCACTTT ATTATCTTAG CCCATTATCT AGACTTTGCA AAACCATTTC
+     2041 CTTGCCAAAA GTGTGAAAAC AGATCTCGCC TCAAACCTCA CAAGGCTCAT GAGGCTCATC
+     2101 ATTCTAATGC TAAGCTATTT TATGAATCTA AATCTCAGAA AACCATTTGC CAACAAGCCG
+     2161 CAGACACTGT TCTAGCCAAA AGGAGGTTAG AGATGCTGGA AATGACCAGG ACAGAAATGC
+     2221 TATGTAAGAA GTTTAAGAAG CACCTAGAGA GATTAAGAGA TTTAGATACA ATAGATCTAC
+     2281 TGTATTATAT GGGTGGTGTG GCCTGGTACT GCTGCTTATT TGAAGAGTTT GAAAAGAAGC
+     2341 TGCAGAAAAT TATTCAATTA TTAACAGAGA ATATACCTAA GTATAGAAAC ATTTGGTTTA
+     2401 AAGGGCCTAT TAACAGTGGA AAAACAAGCT TTGCTGCAGC CTTAATAGAT TTGCTAGAAG
+     2461 GGAAGGCCTT GAATATAAAC TGTCCATCTG ATAAACTGCC TTTTGAACTA GGATGTGCTT
+     2521 TGGATAAATT TATGGTTGTT TTTGAGGATG TGAAAGGGCA AAATAGCCTA AATAAAGATC
+     2581 TGCAACCAGG GCAAGGAATA AATAACCTTG ATAACTTAAG AGATCATCTA GATGGTGCTG
+     2641 TAGCTGTGAG CTTAGAGAAG AAGCATGTGA ATAAAAAGCA TCAGATTTTT CCTCCTTGTA
+     2701 TTGTTACTGC TAATGATTAT TTTATTCCCA AAACATTAAT AGCAAGATTT AGTTATACTT
+     2761 TACACTTTTT CCCAAAGGCA AATCTAAGAG ATTCCCTGGA TCAGAACATG GAAATAAGAA
+     2821 AAAGAAGAAT TCTTCAAAGT GGAACCACTT TATTGCTTTG TCTTATTTGG TGCTTGCCTG
+     2881 ATACAACCTT TAAGCCTTGC TTACAAGAAG AAATTAAAAA CTGGAAGCAA ATTTTACAGA
+     2941 GTGAAATATC ATATGGTAAA TTTTGTCAAA TGATAGAAAA TGTAGAAGCT GGTCAGGACC
+     3001 CTCTGCTCAA TATTCTTATT GAGGAAGAGG GCCCTGAGGA AACTGAGGAA ACCCAAGATT
+     3061 CTGGTACTTT TTCTCAATAA AGGCATCTGC TTCATATTTC CTGTGTTTGT TTTTCTGGGG
+     3121 CCTACTTAAC TGAATAGGAA TGCATGAAAT AATTCTCATA ATTGTTGTGT TTGGCTTTCT
+     3181 TTTTGAGAGG CCTTTTGAGG TCCTTTCAGT GGCGCCTTGC CCTTATCCTG CTGATTACTT
+     3241 TGGAATGTTA CTGCTGCTGG GGCAACAGAG GGCTTTGGGT AAACAGTTTT CTCCTGCCCA
+     3301 AATTTATCTA AAAATCTGAC AATATCAGGA TTACCAGGTA ATTGTTCTGA CCCCTCATAT
+     3361 ATTCTGACCT CTTCTACCTG ATTATCTTTT CCTTCCATAG GTTGGCCTGA CACTTTTGGC
+     3421 ATTAAGTTGC TGAAGAGTGA GTTTATTAAA TTAACTACTG GGTAGGGGTT TTTCACCCAT
+     3481 ATTTTTCTCA AAGTAACATT AAAATATCTA GGCAACCCAT GAAGAGCCAT TTTTCCACTG
+     3541 GTTTTAAACA GAAACCCCAC TATGTGTGCA CAGCTAATAA ATAGGCCATC TCCTTTGCAT
+     3601 AGAGGGCCCA CTCCATTCTC ATCTAAAAGG ACAGTAGTTA GAGTATTACT AAATTGAAGA
+     3661 ACTGTAGGAG TCTGAGAGCC TGTCTGAATA GACCCATAGT ATCTACTGTT TTCATTTTTA
+     3721 GAAGGATCAG GACACCATAC TTCTATAGGA TAATTTCCAT CTTTATCTAA TTTTGCTTTA
+     3781 GCTTGTGGAT CTAGGCCCTG ATTTTTAGGT GTCATTTTTC TTCCTAATAC AGTTTCAATT
+     3841 GTAATAGGCC CACCATTTGT AGTTTTTGGA TACTCAGTCT GGTAATCTAA AACTAGGCCT
+     3901 TGCAAATCCA GAGGTTCTCC CCCAATGGCA AACATATGGT AATTTACCCC TGACACAGGA
+     3961 ATACCAGCAC CATAATCATG AACTCTTTTC ATGTCCCAAT AATGAACATT AATTAAAGAA
+     4021 CTTATTCCAA CTACTTCTGT TTTAACAGAT ATTGCCTCCC ACATCTGCAA TGTGTCACAG
+     4081 GTAATATCCT CATTTAGCAT TGGCAGAGAC ACTCTTGCCA CACTGTAAGC TGGCAAATTT
+     4141 TCCTTGATGG GCTGATCTGG AGATGATCCC TTTGGCTGCA GGTCATAAGT ATAAGTATAC
+     4201 CAGTTTGAAG TAGTAGGAAG ATCAGGGGAA TTAACTCCCA TTCTTGGATT CAAATACAAC
+     4261 TCAATTTGGG TAATGCTATC TTCTCCAGTA ACCACAGATA ATACTTCCAC TCCTCCTTTA
+     4321 ACAAGCAGTT TTGGAACTGA GGCAACATTA GGGCAGCATC CCGGCTTAGG TATACATTGC
+     4381 CTTTTGGGTG TTTTACAGGT GGATGATGCT TTTCTTTTTG GTGCCATCTT CAATTACTTG
+     4441 TAATTCAGGA GAAATATATC CACTAAGGCC TAGTACCAGA GGAAGAAGCC AATCTGGAGT
+     4501 TTGCTGCTGC AGAGTTCCTC CTATATGTTC AGGAATTAAT ATAGCCTCTC CTGATAAAAG
+     4561 GCCCTGATTC TGAGAAGCAG TTGTCTGAAA GACCCACCGG CTATTTAGTA TCAGATTCAC
+     4621 TAGGTTTGAT TGTATCTGCA GCCTAGAGGT AGGAGATAAA GAATTAAAAA TATTTTGCCC
+     4681 CACAGAATGC AGCAAGCTAT TTTCCCACTG CAGAGGATCT AGGCTAAAGG CCATAAGTGC
+     4741 ATGCCTCAAA ACCTCATTAC TACCTACCCA CGAAACATCC CTGTTTACAA GTGACACTTG
+     4801 CTCGCGTGAC AACCTCACCC CCACAGTTAT TAGAGAGCCT ATACCACTAA CAGTTTGGAG
+     4861 AATGAAGCCA TAAGTTAAAC CTTGGTTAAC CAAAGAAGCC ACTAATGAGA AATTTGAAAA
+     4921 CTGTTCAGCT GTGAACCCAA GTTGAGCTAA AGCCTCAATG CCAGAAATAC CCTCAATTGT
+     4981 CATTAAACTG GAGATGTCTG CTTCCAAAGC TGCTAAAGCT TCTCCTGTAA GAATAGCTTC
+     5041 CAAAGTTACT CCTGTGGTGG CACTTAGTTC AGTAGCAATT TCACCAATAT TGGCCAGCAG
+     5101 TGTGATGATG CCCCCCATCC TGAAAAATAA ATAAGGATAC TTACTCTTTT AATGTCCTCC
+     5161 TCCCTTTGTA AGAGAAAAAA AAGCCTCCGG GCCTCCCTTG TTGAAAAAAA GTTAAGAGTT
+     5221 TTCCGTCTCC CTCCCAAACA GAAAGAAAAA AAGTTTTGTT TATCAGTCAA ACTCCGCCTC
+     5281 TCCAGGAAAT GAGTCAATGC CAGAAACCCT GCAGCAATAA AAGTTCAATC ATGTAACCAC
+     5341 AACTTGGCTG CCTAGGTGAC TTTTTTTTTT CAAGTTGGCA GAGGCTT
+//
