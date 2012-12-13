@@ -14,7 +14,7 @@ mode        : selfcontained # {standalone, draft}
 
 
 ## MCPyV genome
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/MCV350_layout.png" height="450" alt="MCV350">
+<img src="./assets/img/MCV350_layout.png" height="450" alt="MCV350">
 
 ---
 
@@ -38,12 +38,12 @@ mode        : selfcontained # {standalone, draft}
 --- 
 
 ## 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Ota_Title.png" width="800" alt="Ota Title">
+<img src="./assets/img/Ota_Title.png" width="800" alt="Ota Title">
 
 --- 
 
 ## Frequency of MCPyV Infection in Skin Tumors
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Ota_Figure1.png" width="600" alt="Ota Figure 1">
+<img src="./assets/img/Ota_Figure1.png" width="600" alt="Ota Figure 1">
 
 <!---
 * Conventional PCR detected MCPyV in 8/9 MCC, 1/46 BCC, 3/52 AK, and no others
@@ -54,13 +54,13 @@ mode        : selfcontained # {standalone, draft}
 
 ## IHC using CM2B4 (MCC)
 All cases found positive by conventional qPCR were also positive by IHC
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Ota_Figure2AB.png" width="800" alt="Ota Figure 2AB">
+<img src="./assets/img/Ota_Figure2AB.png" width="800" alt="Ota Figure 2AB">
 
 --- 
 
 ## IHC using CM2B4 (BCC)
 All cases found positive by conventional qPCR were also positive by IHC
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Ota_Figure2CDE.png" width="800" alt="Ota Figure 2CDE">
+<img src="./img/Ota_Figure2CDE.png" width="800" alt="Ota Figure 2CDE">
 
 --- 
 
@@ -68,7 +68,7 @@ All cases found positive by conventional qPCR were also positive by IHC
 
 Instead of comparing Ct values, just count!
 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/digitalPCRexample.png" width="750" alt="Digital PCR Example">
+<img src="./assets/img/digitalPCRexample.png" width="750" alt="Digital PCR Example">
 
 
 <!---
@@ -82,7 +82,7 @@ Allows larger range of difference detection (not limited to 2-fold change)
 
 ## Digital PCR for Viral Copy Number
 Used primers to the small T antigen and RNaseP as a contol
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Ota_Figure3B.png" height="400" alt="Ota Figure 3B">
+<img src="./assets/img/Ota_Figure3B.png" height="400" alt="Ota Figure 3B">
 
 The negative IHC results for 1 MCC and 3 AK cases were clearly linked to their low viral loads.
 
@@ -108,7 +108,7 @@ confirmed with a second primer set?
 ---
 
 ##
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Title.png" width="800" alt="Rodig Title">
+<img src="./assets/img/Rodig_Title.png" width="800" alt="Rodig Title">
 
 ---
 
@@ -122,13 +122,13 @@ confirmed with a second primer set?
 --- 
 
 ## Detecting MCPyV
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure1A.png" width="800" alt="Figure 1A">
+<img src="./assets/img/Rodig_Figure1A.png" width="800" alt="Figure 1A">
 
 --- 
 
 ## Detecting MCPyV
 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Shuda_SuppFig1.png" width="800" alt="Shuda Supp Figure 1">
+<img src="./assets/img/Shuda_SuppFig1.png" width="800" alt="Shuda Supp Figure 1">
 
 J Clin Invest. 2011;121(9):3623–3634. doi:10.1172/JCI46323, Supp. Fig. 1
 
@@ -136,7 +136,7 @@ J Clin Invest. 2011;121(9):3623–3634. doi:10.1172/JCI46323, Supp. Fig. 1
 
 ## Western Blotting of MCC Cell Lines
 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure1B.png" width="500" alt="Figure 1B">
+<img src="./assets/img/Rodig_Figure1B.png" width="500" alt="Figure 1B">
 
 <!---
 * Used CM2B4 mouse mAB (detects 2nd exon of LT)
@@ -158,7 +158,7 @@ J Clin Invest. 2011;121(9):3623–3634. doi:10.1172/JCI46323, Supp. Fig. 1
 ## IHC Staining Intensity Distribution
 3: strong; 2: moderate; 1: weak; 0: absent
 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure2A.png" height="300" alt="Figure 2A">
+<img src="./assets/img/Rodig_Figure2A.png" height="300" alt="Figure 2A">
 
 --- 
 
@@ -177,27 +177,27 @@ J Clin Invest. 2011;121(9):3623–3634. doi:10.1172/JCI46323, Supp. Fig. 1
 --- 
 
 ## Virus Positive IHC Stains (Figure 3A)
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure3A.png" width="750" alt="Figure 3A">
+<img src="./assets/img/Rodig_Figure3A.png" width="750" alt="Figure 3A">
 
 --- 
 
 ## CM2B4^- Ab3^+ IHC Stains (Figure 3B)
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure3B.png" width="800" alt="Figure 3B">
+<img src="./assets/img/Rodig_Figure3B.png" width="800" alt="Figure 3B">
 
 --- 
 
 ## CM2B4^- Ab3^- IHC Stains (Figure 3C)
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure3C.png" height="400" alt="Figure 3C">
+<img src="./assets/img/Rodig_Figure3C.png" height="400" alt="Figure 3C">
 
 --- 
 
 ## Ab3 Control IHC Stains (Figure 4A,B)
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure4AB.png" height="400" alt="Figure 4AB">
+<img src="./assets/img/Rodig_Figure4AB.png" height="400" alt="Figure 4AB">
 
 ---
 
 ## Ab3 Control IHC Stains (Figure 4C,D,E)
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure4CDE.png" height="400" alt="Figure 4CDE">
+<img src="./assets/img/Rodig_Figure4CDE.png" height="400" alt="Figure 4CDE">
 
 ---
 
@@ -229,7 +229,7 @@ __TPO__ was used as copy number control.
 
 ## MCPyV Copy Number in MCC Cell Lines
 
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure1C.png" width="800" alt="Figure 1C">
+<img src="./assets/img/Rodig_Figure1C.png" width="800" alt="Figure 1C">
 
 <!---
 For validation, ran them on the cell lines (4 MCPyV positive, 2 MCPyV negative, and a positive control).
@@ -240,7 +240,7 @@ Ct values for Mkl-2 were approx equal to TPO and normalized wrt to this to compa
 --- 
 
 ## qPCR Copy Number Distribution
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Figure2B.png" height="400" alt="Figure 2B">
+<img src="./assets/img/Rodig_Figure2B.png" height="400" alt="Figure 2B">
 
 
 --- 
@@ -263,7 +263,7 @@ TPO amplified fine in all samples with signal similar to Mkl-2.
 --- 
 
 ## Correlation of qPCR Copy Number and IHC intensity
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/Rodig_Table1.png" width="800" alt="Table 1">
+<img src="./assets/img/Rodig_Table1.png" width="800" alt="Table 1">
 
 <!---
 * "Significant" correlation between all combos of antibody and qPCR
