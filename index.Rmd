@@ -16,6 +16,7 @@ require(reshape)
 require(ggplot2)
 setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/")
 source('setup.R')
+setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/20121217_Brownell_LabMtg")
 
 ## Plot theme
 my.theme <- theme(axis.text.x=element_text(size=20), 
@@ -40,6 +41,7 @@ my.theme.boxplot <- theme(axis.text.x=element_text(size=15),
 ## MCPyV genome
 <img src="./assets/img/MCV350_layout.png" height="450" alt="MCV350">
 
+Science 2008;319;5866:1096-1100. doi:10.1126/science.1152586, Fig. 3
 ---
 
 ## MCPyV Infection
