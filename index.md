@@ -60,7 +60,7 @@ All cases found positive by conventional qPCR were also positive by IHC
 
 ## IHC using CM2B4 (BCC)
 All cases found positive by conventional qPCR were also positive by IHC
-<img src="./img/Ota_Figure2CDE.png" width="800" alt="Ota Figure 2CDE">
+<img src="./assets/img/Ota_Figure2CDE.png" width="800" alt="Ota Figure 2CDE">
 
 --- 
 
