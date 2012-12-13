@@ -15,7 +15,6 @@ mode        : selfcontained # {standalone, draft}
 
 ## MCPyV genome
 <img src="./assets/img/MCV350_layout.png" height="400" alt="MCV350">
-
 Science 2008;319;5866:1096-1100. doi:10.1126/science.1152586, Fig. 3
 
 ---
