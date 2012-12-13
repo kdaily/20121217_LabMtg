@@ -41,7 +41,7 @@ my.theme.boxplot <- theme(axis.text.x=element_text(size=15),
 ## MCPyV genome
 <img src="./assets/img/MCV350_layout.png" height="350" alt="MCV350">
 
-Science 2008;319;5866:1096-1100. doi:10.1126/science.1152586, Fig. 3
+[Science 2008;319;5866:1096-1100, Figure 3](http://www.sciencemag.org/content/319/5866/1096.full "doi:10.1126/science.1152586")"
 
 ---
 
@@ -59,8 +59,8 @@ Science 2008;319;5866:1096-1100. doi:10.1126/science.1152586, Fig. 3
 
 * Several studies show ~80% of MCCs have virus present, mostly by PCR on FFPE tissues
 * CN variation is prevalent
-* IHC LT reported as ~80% positive (CM2B4 antibody)
-* IHC LT reported as ~90% positive (CM5E1 antibody)
+* IHC for large T reported as ~80% positive (CM2B4 antibody)
+* IHC for small T reported as ~90% positive (CM5E1 antibody)
 
 --- 
 
@@ -157,7 +157,7 @@ confirmed with a second primer set?
 
 <img src="./assets/img/Shuda_SuppFig1.png" width="800" alt="Shuda Supp Figure 1">
 
-J Clin Invest. 2011;121(9):3623–3634. doi:10.1172/JCI46323, Supp. Fig. 1
+[J Clin Invest. 2011;121(9):3623–3634, Supp. Fig. 1](http://www.jci.org/articles/view/46323 "doi:10.1172/JCI46323")
 
 --- 
 
