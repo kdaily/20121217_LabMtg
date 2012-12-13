@@ -38,7 +38,7 @@ my.theme.boxplot <- theme(axis.text.x=element_text(size=15),
 ```
 
 ## MCPyV genome
-<img src="/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/presentation/assets/img/MCV350_layout.png" height="450" alt="MCV350">
+<img src="./assets/img/MCV350_layout.png" height="450" alt="MCV350">
 
 ---
 
