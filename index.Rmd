@@ -8,40 +8,17 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+--- .cover #Cover
+
+## Brownell Lab Meeting
+<img src="./assets/img/MCV_VLP_EM_PTA_staining.jpg" width="1024" alt="VLP">
+
 ---
 
-```{r setup,include=FALSE}
-require(plyr)
-require(reshape)
-require(ggplot2)
-setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/")
-source('setup.R')
-setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/20121217_Brownell_LabMtg")
+## [Merkel Cell Polyomavirus Genome](http://www.sciencemag.org/content/319/5866/1096.full "Science 2008;319;5866:1096-1100, Figure 3, doi:10.1126/science.1152586")
 
-## Plot theme
-my.theme <- theme(axis.text.x=element_text(size=20), 
-                  axis.text.y=element_text(size=20),
-                  axis.title.x=element_text(size=25),
-                  axis.title.y=element_text(size=25, angle=90))
+<img src="./assets/img/MCV350_layout.png" height="450" alt="MCV350">
 
-my.theme.smallx <- theme(axis.text.x=element_text(size=12, angle=270, vjust=0.5), 
-                         axis.text.y=element_text(size=15, angle=90),
-                         axis.title.x=element_text(size=20),
-                         axis.title.y=element_text(size=20, angle=90))
-
-my.theme.boxplot <- theme(axis.text.x=element_text(size=15), 
-                          axis.text.y=element_text(size=15),
-                          axis.title.x=element_text(size=20),
-                          axis.title.y=element_text(size=20),
-                          strip.text=element_text(size=15))
-
-
-```
-
-## MCPyV genome
-<img src="./assets/img/MCV350_layout.png" height="350" alt="MCV350">
-
-[Science 2008;319;5866:1096-1100, Figure 3](http://www.sciencemag.org/content/319/5866/1096.full "doi:10.1126/science.1152586")
 
 ---
 
@@ -130,7 +107,7 @@ confirmed with a second primer set?
 * Loss of LT2 fragment in MCC mets
 * Differing range of viral load for MCC, AK
 * Strong correlation between IHC and viral load
-* digital PCR is advantageous
+* Digital PCR is advantageous
 
 ---
 
@@ -176,6 +153,36 @@ confirmed with a second primer set?
 
 ## IHC on MCC Sections
 60 patients, 75 FFPE MCC tumor specimens (not all were stained)
+
+```{r setup,include=FALSE}
+require(plyr)
+require(reshape)
+require(ggplot2)
+## setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/")
+setwd("./../../")
+source('setup.R')
+## setwd("/mnt/NIH_GROUP/Dermatology/Brownell Lab/Kenny/Presentations/BrownellLabMeeting_20121217/reports/20121217_Brownell_LabMtg")
+setwd("./reports/20121217_Brownell_LabMtg")
+
+## Plot theme
+my.theme <- theme(axis.text.x=element_text(size=20), 
+                  axis.text.y=element_text(size=20),
+                  axis.title.x=element_text(size=25),
+                  axis.title.y=element_text(size=25, angle=90))
+
+my.theme.smallx <- theme(axis.text.x=element_text(size=12, angle=270, vjust=0.5), 
+                         axis.text.y=element_text(size=15, angle=90),
+                         axis.title.x=element_text(size=20),
+                         axis.title.y=element_text(size=20, angle=90))
+
+my.theme.boxplot <- theme(axis.text.x=element_text(size=15), 
+                          axis.text.y=element_text(size=15),
+                          axis.title.x=element_text(size=20),
+                          axis.title.y=element_text(size=20),
+                          strip.text=element_text(size=15))
+
+
+```
 
 ```{r ihcvirusbinary, echo=FALSE, cache=FALSE, fig.height=4}
 tbl <- with(patient.virus.status, table(CM2B4=CM2B4 == 0, Ab3=Ab3 == 0))

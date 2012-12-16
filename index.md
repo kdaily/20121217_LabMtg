@@ -8,15 +8,17 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+--- .cover #Cover
+
+## Brownell Lab Meeting
+<img src="./assets/img/MCV_VLP_EM_PTA_staining.jpg" width="1024" alt="VLP">
+
 ---
 
+## [Merkel Cell Polyomavirus Genome](http://www.sciencemag.org/content/319/5866/1096.full "Science 2008;319;5866:1096-1100, Figure 3, doi:10.1126/science.1152586")
 
+<img src="./assets/img/MCV350_layout.png" height="450" alt="MCV350">
 
-
-## MCPyV genome
-<img src="./assets/img/MCV350_layout.png" height="350" alt="MCV350">
-
-[Science 2008;319;5866:1096-1100, Figure 3](http://www.sciencemag.org/content/319/5866/1096.full "doi:10.1126/science.1152586")
 
 ---
 
@@ -105,7 +107,7 @@ confirmed with a second primer set?
 * Loss of LT2 fragment in MCC mets
 * Differing range of viral load for MCC, AK
 * Strong correlation between IHC and viral load
-* digital PCR is advantageous
+* Digital PCR is advantageous
 
 ---
 
@@ -151,6 +153,9 @@ confirmed with a second primer set?
 
 ## IHC on MCC Sections
 60 patients, 75 FFPE MCC tumor specimens (not all were stained)
+
+
+
 
 ![plot of chunk ihcvirusbinary](figure/ihcvirusbinary.png) 
 
